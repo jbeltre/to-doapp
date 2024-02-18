@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head.ejs', {title: 'New'}); %>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Add a To-Do</h1>
+      <%- include('./partials/form.ejs', {action: '/submit'}); %>
+    </div>
+  </body>
+</html>
